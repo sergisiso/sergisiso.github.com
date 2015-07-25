@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Sergi Siso</title><link href="/" rel="alternate"></link><link href="/feeds/sergi-siso.atom.xml" rel="self"></link><id>/</id><updated>2010-12-03T10:20:00+01:00</updated><entry><title>My First Review</title><link href="/my-first-review.html" rel="alternate"></link><updated>2010-12-03T10:20:00+01:00</updated><author><name>Sergi Siso</name></author><id>tag:,2010-12-03:my-first-review.html</id><summary type="html">&lt;p&gt;Empty post.
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Sergi Siso</title><link href="/" rel="alternate"></link><link href="/feeds/sergi-siso.atom.xml" rel="self"></link><id>/</id><updated>2010-12-03T10:20:00+01:00</updated><entry><title>My First Review</title><link href="/my-first-review.html" rel="alternate"></link><updated>2010-12-03T10:20:00+01:00</updated><author><name>Sergi Siso</name></author><id>tag:,2010-12-03:my-first-review.html</id><summary type="html">&lt;h1 id="empty-post"&gt;Empty post.&lt;/h1&gt;
+&lt;h2 id="empty-post_1"&gt;Empty post.&lt;/h2&gt;
+&lt;p&gt;Empty post.
 Empty post.
+Empty post.&lt;/p&gt;
+&lt;h1 id="empty-post_3"&gt;Empty post.&lt;/h1&gt;
+&lt;h2 id="empty-post_4"&gt;Empty post.&lt;/h2&gt;
+&lt;p&gt;Empty post.
 Empty post.
 Empty post.
 Empty post.
@@ -22,13 +28,13 @@ Empty post.
 Empty post.
 Empty post.
 Empty post.
+Empty post.&lt;/p&gt;</summary><category term="programming"></category><category term="hpc"></category></entry><entry><title>My Second Review</title><link href="/my-second-review.html" rel="alternate"></link><updated>2010-12-03T10:20:00+01:00</updated><author><name>Sergi Siso</name></author><id>tag:,2010-12-03:my-second-review.html</id><summary type="html">&lt;p&gt;Empty post.
 Empty post.
 Empty post.
 Empty post.
 Empty post.
 Empty post.
 Empty post.
-Empty post.&lt;/p&gt;</summary></entry><entry><title>My Second Review</title><link href="/my-second-review.html" rel="alternate"></link><updated>2010-12-03T10:20:00+01:00</updated><author><name>Sergi Siso</name></author><id>tag:,2010-12-03:my-second-review.html</id><summary type="html">&lt;p&gt;Empty post.
 Empty post.
 Empty post.
 Empty post.
@@ -61,13 +67,13 @@ Empty post.
 Empty post.
 Empty post.
 Empty post.
+Empty post.&lt;/p&gt;</summary><category term="hpc"></category></entry><entry><title>My third Review</title><link href="/my-third-review.html" rel="alternate"></link><updated>2010-12-03T10:20:00+01:00</updated><author><name>Sergi Siso</name></author><id>tag:,2010-12-03:my-third-review.html</id><summary type="html">&lt;p&gt;Empty post.
 Empty post.
 Empty post.
 Empty post.
 Empty post.
 Empty post.
 Empty post.
-Empty post.&lt;/p&gt;</summary></entry><entry><title>My third Review</title><link href="/my-third-review.html" rel="alternate"></link><updated>2010-12-03T10:20:00+01:00</updated><author><name>Sergi Siso</name></author><id>tag:,2010-12-03:my-third-review.html</id><summary type="html">&lt;p&gt;Empty post.
 Empty post.
 Empty post.
 Empty post.
@@ -82,10 +88,4 @@ Empty post.
 Empty post.
 Empty post.
 Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.&lt;/p&gt;</summary></entry></feed>
+Empty post.&lt;/p&gt;</summary><category term="programming"></category></entry></feed>

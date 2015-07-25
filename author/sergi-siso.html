@@ -10,10 +10,10 @@
 
     <title>Sergi Siso - Articles by Sergi Siso</title>
 
-    <link rel="stylesheet" href="/theme/css/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="/theme/css/bootstrap.spacelab.min.css" type="text/css"/>
     <link href="/theme/css/font-awesome.min.css" rel="stylesheet">
     
-    <link href="/theme/css/pygments/native.css" rel="stylesheet">
+    <link href="/theme/css/pygments/github.css" rel="stylesheet">
     
     <link href="/theme/css/pelican-twitchy.min.css" rel="stylesheet">
 
@@ -32,31 +32,28 @@
         <div id="sidebar-wrapper-small" class="twitchy-background">
             <ul id="accordion-small" class="sidebar-nav sidebar-nav-small">
                 <li>
-        <a href="" title="Sergi Siso" class="collapsed">
-            <span class="glyphicon glyphicon-home"></span>
-        </a>
-    </li>
- 
-                    <li id="none" class="none">
-                        <a href="/pages/curriculum.html">
+                    <a href="/" class="collapsed">
+                        <span class="glyphicon glyphicon-home"></span>
+                    </a>
+                </li>
+                    <li >
+                        <a href="/pages/curriculum.html" class="collapsed">
                             <i class="fa fa-file-text padding-small"></i>
                         </a>
                     </li>
                     <li class="nav-divider"></li>
-                    <li id="none" class="none">
-                        <a href="/pages/publications.html">
+                    <li >
+                        <a href="/pages/publications.html" class="collapsed">
                             <i class="fa fa-book padding-small"></i>
                         </a>
                     </li>
                     <li class="nav-divider"></li>
-                    <li id="none" class="none">
-                        <a href="/pages/projects.html">
+                    <li >
+                        <a href="/pages/projects.html" class="collapsed">
                             <i class="fa fa-code padding-small"></i>
                         </a>
                     </li>
                     <li class="nav-divider"></li>
-
-
 
 
                 <li class="nav-divider"></li>
@@ -103,21 +100,21 @@
                     </a>
                 </li>
                 
-                    <li>
+                    <li class="">
                         <a href="/pages/curriculum.html">
                             <i class="fa fa-file-text padding-small"></i>
                             Curriculum
                         </a>
                     </li>
                     <li class="nav-divider"></li>
-                    <li>
+                    <li class="">
                         <a href="/pages/publications.html">
                             <i class="fa fa-book padding-small"></i>
                             Publications
                         </a>
                     </li>
                     <li class="nav-divider"></li>
-                    <li>
+                    <li class="">
                         <a href="/pages/projects.html">
                             <i class="fa fa-code padding-small"></i>
                             Projects
@@ -127,7 +124,7 @@
 
                     <li class="nav-divider"></li>
                     <li>
-                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-latest">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-latest" class="collapsed">
                             <span class="glyphicon glyphicon-th-list padding-small"></span>
                             Recent Blog Articles
                         </a>
@@ -193,23 +190,30 @@
                 </ul></li>
                 
                                 
+                
                 <li class="nav-divider"></li>
                 <li>
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-categories">
-                        <i class="fa fa-folder-open padding-small"></i>
-                        Categories
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-tags">
+                        <i class="fa fa-tags padding-small"></i>
+                        Tags
                     </a>
                 </li>
-                <li class="panel anti-panel"><ul id="collapse-categories" class="sidebar_submenu collapse ">
-                    <li >
-                        <a href="/category/blog.html">
-                            <i class="fa fa-folder-open padding-small"></i>
-                            Blog
-                            <span class="badge pull-right categorybadge">3</span>
+                <li class="panel anti-panel"><ul id="collapse-tags" class="sidebar_submenu collapse ">
+                    <li  >
+                        <a href="/tag/hpc.html">
+                            <i class="fa fa-tags padding-small"></i>
+                            hpc
+                            <span class="badge pull-right categorybadge">2</span>
+                        </a>
+                    </li>
+                    <li  >
+                        <a href="/tag/programming.html">
+                            <i class="fa fa-tags padding-small"></i>
+                            programming
+                            <span class="badge pull-right categorybadge">2</span>
                         </a>
                     </li>
                 </ul></li>
-                
             </ul>
         </div>
         <!-- /#sidebar-wrapper -->
@@ -223,204 +227,95 @@
         <!-- Page Content -->
         <div id="page-content-wrapper">
             <div class="container-fluid">
-<section id="content" class="body">
-    <div class="row">
-        <div class="col-lg-9">
-            <div class="jumbotron">  
-                <div class="row">
-                    <div class="col-lg-12">
+        <div class="row">
+            <div class="col-lg-9">
+                <section id="content" class="body">
+                    <div class="jumbotron">  
                         <h1>Sergi Siso</h1>
                         <p></p>
                     </div>
-                </div>
+                    <div class="entry-content">
+                        <p>This webpage is under construction. Here goes the intro.</p>
+<p>Some style samples:
+Tables
+<table class="table table-striped">
+<thead>
+<tr>
+<th>Tables</th>
+<th align="center">Are</th>
+<th align="right">Cool</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>col 3 is</td>
+<td align="center">right-aligned</td>
+<td align="right">$1600</td>
+</tr>
+<tr>
+<td>col 2 is</td>
+<td align="center">centered</td>
+<td align="right">$12</td>
+</tr>
+<tr>
+<td>zebra stripes</td>
+<td align="center">are neat</td>
+<td align="right">$1</td>
+</tr>
+</tbody>
+</table></p>
+<p>Python code</p>
+<div class="highlight"><pre><span class="kn">import</span> <span class="nn">random</span>
+<span class="nb">min</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="nb">max</span> <span class="o">=</span> <span class="mi">6</span>
+
+<span class="n">roll_again</span> <span class="o">=</span> <span class="s">"yes"</span>
+
+<span class="k">while</span> <span class="n">roll_again</span> <span class="o">==</span> <span class="s">"yes"</span> <span class="ow">or</span> <span class="n">roll_again</span> <span class="o">==</span> <span class="s">"y"</span><span class="p">:</span>
+    <span class="k">print</span> <span class="s">"Rolling the dices..."</span>
+    <span class="k">print</span> <span class="s">"The values are...."</span>
+    <span class="k">print</span> <span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="nb">min</span><span class="p">,</span> <span class="nb">max</span><span class="p">)</span>
+    <span class="k">print</span> <span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="nb">min</span><span class="p">,</span> <span class="nb">max</span><span class="p">)</span>
+
+<span class="n">roll_again</span> <span class="o">=</span> <span class="nb">raw_input</span><span class="p">(</span><span class="s">"Roll the dices again?"</span><span class="p">)</span>
+</pre></div>
+<p>C++ Code</p>
+<div class="highlight"><pre><span class="cp">#include&lt;iostream&gt;</span>
+
+<span class="k">class</span> <span class="nc">example</span><span class="p">{</span>
+<span class="kt">int</span> <span class="n">var1</span><span class="p">,</span> <span class="n">var2</span><span class="p">;</span>
+<span class="k">public</span><span class="o">:</span>
+<span class="kt">void</span> <span class="n">set_request</span><span class="p">(</span><span class="kt">int</span> <span class="n">a</span><span class="p">,</span> <span class="kt">int</span> <span class="n">b</span><span class="p">);</span>
+<span class="kt">int</span> <span class="nf">sum</span><span class="p">(){</span><span class="k">return</span> <span class="p">(</span><span class="n">var1</span><span class="o">+</span><span class="n">var2</span><span class="p">);}</span>
+<span class="p">}</span><span class="n">class_obj</span><span class="p">;</span>
+
+<span class="kt">void</span> <span class="n">example</span><span class="o">::</span><span class="n">set_request</span><span class="p">(</span><span class="kt">int</span> <span class="n">a</span><span class="p">,</span> <span class="kt">int</span> <span class="n">b</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="n">var1</span> <span class="o">=</span> <span class="n">a</span><span class="p">;</span>
+    <span class="n">var2</span> <span class="o">=</span> <span class="n">b</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kt">int</span> <span class="n">main</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="n">class_obj</span><span class="p">.</span><span class="n">set_request</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">4</span><span class="p">);</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">cout</span><span class="o">&lt;&lt;</span><span class="s">"</span><span class="se">\n</span><span class="s"> The sum is "</span><span class="o">&lt;&lt;</span><span class="n">class_obj</span><span class="p">.</span><span class="n">sum</span><span class="p">()</span><span class="o">&lt;&lt;</span><span class="s">"</span><span class="se">\n</span><span class="s">"</span><span class="p">;</span>
+
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+<p>Quotes</p>
+<blockquote>
+<p>Blockquotes are very handy in email to emulate reply text.
+This line is part of the same quote.</p>
+</blockquote>
+<p>Quote break.</p>
+<blockquote>
+<p>This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can <em>put</em> <strong>Markdown</strong> into a blockquote. </p>
+</blockquote>
+                    </div>
+                </section>
             </div>
         </div>
-    </div>
-</section>
-<div class="row">
-    <div class="col-lg-9">
-
-    <div class="row">
-        <div class="col-lg-9">
-            <section id="content" class="body">
-                <div class="entry-content">
-                    <p>Welcome to my website. 
-Write intro. 
-Write intro. 
-Write intro. 
-Write intro. 
-Write intro. 
-Write intro. 
-Write intro. 
-Write intro. 
-Write intro. 
-Write intro. 
-Write intro. 
-Write intro. 
-Write intro. 
-Write intro. 
-Write intro. 
-Write intro. 
-Write intro. 
-Write intro. 
-Write intro. 
-Write intro. 
-Write intro. 
-Write intro. 
-Write intro. 
-Write intro. 
-Write intro. 
-Write intro. 
-Write intro. 
-Write intro. 
-Write intro. 
-Write intro. 
-Write intro. 
-Write intro. 
-Write intro. 
-Write intro. 
-Write intro. </p>
-                </div>
-            </section>
-        </div>
-    </div>
-
-        <h2>Last Articles:</h2>
-            <article>
-                <h2>
-                    <a href="/my-first-review.html">My First Review</a>
-<div class="post-info">
-    <div class="publish-info-block">
-        <small>
-            <span class="published">
-                <i class="fa fa-calendar padding-small"></i><time datetime="2010-12-03T10:20:00+01:00"> Fri 03 December 2010</time>
-            </span>
-            <span class="category">
-                <i class="fa fa-folder-open padding-small"></i><a href="/category/blog.html">Blog</a>
-            </span>
-        </small>
-    </div>
-</div><!-- /.post-info -->                </h2>
-                <div class="summary">
-                    <p>Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post ...</p>
-                </div>
-            </article>
-            <hr/>
-            <article>
-                <h2>
-                    <a href="/my-second-review.html">My Second Review</a>
-<div class="post-info">
-    <div class="publish-info-block">
-        <small>
-            <span class="published">
-                <i class="fa fa-calendar padding-small"></i><time datetime="2010-12-03T10:20:00+01:00"> Fri 03 December 2010</time>
-            </span>
-            <span class="category">
-                <i class="fa fa-folder-open padding-small"></i><a href="/category/blog.html">Blog</a>
-            </span>
-        </small>
-    </div>
-</div><!-- /.post-info -->                </h2>
-                <div class="summary">
-                    <p>Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post ...</p>
-                </div>
-            </article>
-            <hr/>
-            <article>
-                <h2>
-                    <a href="/my-third-review.html">My third Review</a>
-<div class="post-info">
-    <div class="publish-info-block">
-        <small>
-            <span class="published">
-                <i class="fa fa-calendar padding-small"></i><time datetime="2010-12-03T10:20:00+01:00"> Fri 03 December 2010</time>
-            </span>
-            <span class="category">
-                <i class="fa fa-folder-open padding-small"></i><a href="/category/blog.html">Blog</a>
-            </span>
-        </small>
-    </div>
-</div><!-- /.post-info -->                </h2>
-                <div class="summary">
-                    <p>Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.
-Empty post.</p>
-                </div>
-            </article>
-        <div class="btn-more text-right">
-            <a class="btn btn-default btn-xs twitchy-background" href="/archives.html">
-                View all Articles ...
-            </a>
-        </div>
-    </div>
-</div>
 <footer>
     <hr>
     <div class="row">
@@ -442,22 +337,5 @@ Empty post.</p>
     <script src="/theme/js/bootstrap.min.js"></script>
     <!-- twitchy Script -->
     <script src="/theme/js/pelican_twitchy.min.js"></script>
-<script>
-    function FadeInOnScroll(ObjectList){
-        ObjectList.each(function(i) {
-            var bottom_of_object = $(this).position().top + $(this).outerHeight();
-            var bottom_of_window = $(window).scrollTop() + $(window).height();
-
-            if( bottom_of_window > bottom_of_object ){
-                $(this).fadeTo(750,1);
-            }
-        });
-    }
-    articles = $("article").fadeTo(0, 0.05);
-    FadeInOnScroll(articles)
-    $(window).scroll(function() {
-        FadeInOnScroll(articles)
-    });
-</script>
 </body>
 </html>

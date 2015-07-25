@@ -6,14 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="author" content="Sergi Siso" />
-        <meta name="description" content="Thesis 2014 Parallelisation of the Coupled Coherent States quantum dynamics simulation MSc in HPC dissertation The Coupled Coherent States is a quantum molecular dynamics method which solves the time-dependent Schrödinger equation in a basis of semi-classical trajectories in an attempt to avoid exponential scaling. This makes it able to simulate ..." />
+        <meta name="description" content="Thesis 2014 Parallelisation of the Coupled Coherent States quantum dynamics simulation MSc in HPC dissertation The Coupled Coherent States is a quantum molecular dynamics method which solves the time-dependent Schrödinger equation in a basis of semi-classical trajectories in an attempt to avoid exponential scaling. This makes it able to ..." />
 
     <title>Publications - Sergi Siso</title>
 
-    <link rel="stylesheet" href="/theme/css/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="/theme/css/bootstrap.spacelab.min.css" type="text/css"/>
     <link href="/theme/css/font-awesome.min.css" rel="stylesheet">
     
-    <link href="/theme/css/pygments/native.css" rel="stylesheet">
+    <link href="/theme/css/pygments/github.css" rel="stylesheet">
     
     <link href="/theme/css/pelican-twitchy.min.css" rel="stylesheet">
 
@@ -32,31 +32,28 @@
         <div id="sidebar-wrapper-small" class="twitchy-background">
             <ul id="accordion-small" class="sidebar-nav sidebar-nav-small">
                 <li>
-        <a href="" title="Sergi Siso" class="collapsed">
-            <span class="glyphicon glyphicon-home"></span>
-        </a>
-    </li>
- 
-                    <li id="none" class="none">
-                        <a href="/pages/curriculum.html">
+                    <a href="/" class="collapsed">
+                        <span class="glyphicon glyphicon-home"></span>
+                    </a>
+                </li>
+                    <li >
+                        <a href="/pages/curriculum.html" class="collapsed">
                             <i class="fa fa-file-text padding-small"></i>
                         </a>
                     </li>
                     <li class="nav-divider"></li>
-                    <li id="none" class="none">
-                        <a href="/pages/publications.html">
+                    <li  class="active">
+                        <a href="/pages/publications.html" class="collapsed">
                             <i class="fa fa-book padding-small"></i>
                         </a>
                     </li>
                     <li class="nav-divider"></li>
-                    <li id="none" class="none">
-                        <a href="/pages/projects.html">
+                    <li >
+                        <a href="/pages/projects.html" class="collapsed">
                             <i class="fa fa-code padding-small"></i>
                         </a>
                     </li>
                     <li class="nav-divider"></li>
-
-
 
 
                 <li class="nav-divider"></li>
@@ -103,7 +100,7 @@
                     </a>
                 </li>
                 
-                    <li>
+                    <li class="">
                         <a href="/pages/curriculum.html">
                             <i class="fa fa-file-text padding-small"></i>
                             Curriculum
@@ -117,7 +114,7 @@
                         </a>
                     </li>
                     <li class="nav-divider"></li>
-                    <li>
+                    <li class="">
                         <a href="/pages/projects.html">
                             <i class="fa fa-code padding-small"></i>
                             Projects
@@ -127,7 +124,7 @@
 
                     <li class="nav-divider"></li>
                     <li>
-                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-latest">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-latest" class="collapsed">
                             <span class="glyphicon glyphicon-th-list padding-small"></span>
                             Recent Blog Articles
                         </a>
@@ -193,23 +190,30 @@
                 </ul></li>
                 
                                 
+                
                 <li class="nav-divider"></li>
                 <li>
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-categories">
-                        <i class="fa fa-folder-open padding-small"></i>
-                        Categories
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-tags">
+                        <i class="fa fa-tags padding-small"></i>
+                        Tags
                     </a>
                 </li>
-                <li class="panel anti-panel"><ul id="collapse-categories" class="sidebar_submenu collapse ">
-                    <li >
-                        <a href="/category/blog.html">
-                            <i class="fa fa-folder-open padding-small"></i>
-                            Blog
-                            <span class="badge pull-right categorybadge">3</span>
+                <li class="panel anti-panel"><ul id="collapse-tags" class="sidebar_submenu collapse ">
+                    <li  >
+                        <a href="/tag/hpc.html">
+                            <i class="fa fa-tags padding-small"></i>
+                            hpc
+                            <span class="badge pull-right categorybadge">2</span>
+                        </a>
+                    </li>
+                    <li  >
+                        <a href="/tag/programming.html">
+                            <i class="fa fa-tags padding-small"></i>
+                            programming
+                            <span class="badge pull-right categorybadge">2</span>
                         </a>
                     </li>
                 </ul></li>
-                
             </ul>
         </div>
         <!-- /#sidebar-wrapper -->
@@ -227,23 +231,34 @@
     <div class="col-lg-9">
         <section id="content" class="body">
             <h1 class="page-header">Publications</h1>
+        </section>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-9">
+        <section id="content" class="body">
             <div class="entry-content">
-                <h2>Thesis</h2>
-<h4>2014 <a href="https://static.ph.ed.ac.uk/dissertations/hpc-msc/2013-2014/Parallelisation%20of%20the%20Coupled%20Coherent%20States%20quantum%20dynamics%20simulation.pdf">Parallelisation of the Coupled Coherent States quantum dynamics simulation</a> MSc in HPC dissertation</h4>
-<p>The Coupled Coherent States is a quantum molecular dynamics method which solves the time-dependent Schrödinger equation in a basis of semi-classical trajectories in an attempt to avoid exponential scaling. This makes it able to simulate and study the time evolution of photochemical reactions.
+                <h2 id="thesis">Thesis</h2>
+<h4 id="2014-parallelisation-of-the-coupled-coherent-states-quantum-dynamics-simulation-msc-in-hpc-dissertation">2014 <a href="https://static.ph.ed.ac.uk/dissertations/hpc-msc/2013-2014/Parallelisation%20of%20the%20Coupled%20Coherent%20States%20quantum%20dynamics%20simulation.pdf">Parallelisation of the Coupled Coherent States quantum dynamics simulation</a> MSc in HPC dissertation</h4>
+<p>The Coupled Coherent States is a quantum molecular dynamics method which solves the time-dependent Schr&ouml;dinger equation in a basis of semi-classical trajectories in an attempt to avoid exponential scaling. This makes it able to simulate and study the time evolution of photochemical reactions.
 This current project studies the performance of the Coupled Coherent States method and explores its potential parallelism. It proposes a parallel version of the simulation in order run the software faster and more accurately.
 The simulation is divisible in two parts where different parallelisation approaches are used. The generation of the trajectories represents an embarrassingly parallel problem and can be solved with a task distribution solution. The propagation of the trajectories needs to solve a ODE, which represent a highly coupled problem. To solve it, the parallisation of the Runge-Kutta Cash-Karp method, the implementation of a parallel derivation routine and the use of parallel lineal algebra routines (ScaLAPACK) are proposed.
 The final implementation achieves a speedup of x10 in the first part of the simulation, the generation of trajectories, and a x4.5 in the second part, the propagation of the trajectories, when they are run on 12 processors. Suggestions for further development of the parallel CCS code are also presented.</p>
-<h4>2013 <a href="http://upcommons.upc.edu/pfc/handle/2099.1/18972">Simulating parallel systems using summarized application information</a>, MTI master thesis</h4>
+<h4 id="2013-simulating-parallel-systems-using-summarized-application-information-mti-master-thesis">2013 <a href="http://upcommons.upc.edu/pfc/handle/2099.1/18972">Simulating parallel systems using summarized application information</a>, MTI master thesis</h4>
 <p>Examine and analyse how we can use the summarized information of parallel applications generated by the Extrae instrumentation tool in order to model the behavior of the application in a feasible way to predict its impact and the performance in different architectures.</p>
-<h4>2011 <a href="http://repositori.udl.cat/handle/10459.1/45765">An electronic voting platform with elliptic curve cryptography</a>, Bachelor final thesis</h4>
+<h4 id="2011-an-electronic-voting-platform-with-elliptic-curve-cryptography-bachelor-final-thesis">2011 <a href="http://repositori.udl.cat/handle/10459.1/45765">An electronic voting platform with elliptic curve cryptography</a>, Bachelor final thesis</h4>
 <p>This document is part of a wider project which presents an e-Voting platform based on elliptic curve cryptography. It uses an hybrid combination of two of the main e-Voting paradigms to guarantee privacy and security in the counting phase, these are precisely, the mixnets and the homomorphic protocols. This document is focused in the description of the system and the maths and programming needed to solve the homomorphic part of it. In later chapters, there is a comparison between a simple mixing system and our system proposal.</p>
-<h2>Symposiums</h2>
-<h4>CCS</h4>
-<h4>DualSPH</h4>
+<h2 id="symposiums_1">Symposiums</h2>
+<h4 id="ccs">CCS</h4>
+<h4 id="dualsph">DualSPH</h4>
             </div>
         </section>
     </div>
+        <div id="scrollspy">
+            <div class="col-lg-3 nav nav-stacked hidden-xs hidden-sm" data-spy="affix" data-offset-top="135">
+                <div id="toc"><ul><li><a class="toc-href" href="#" title="Publications">Publications</a><ul><li><a class="toc-href" href="#thesis" title="Thesis">Thesis</a><ul><li><a class="toc-href" href="#2014-parallelisation-of-the-coupled-coherent-states-quantum-dynamics-simulation-msc-in-hpc-dissertation" title="2014 Parallelisation of the Coupled Coherent States quantum dynamics simulation MSc in HPC dissertation">2014 Parallelisation of the Coupled Coherent States quantum dynamics simulation MSc in HPC dissertation</a></li><li><a class="toc-href" href="#2013-simulating-parallel-systems-using-summarized-application-information-mti-master-thesis" title="2013 Simulating parallel systems using summarized application information, MTI master thesis">2013 Simulating parallel systems using summarized application information, MTI master thesis</a></li><li><a class="toc-href" href="#2011-an-electronic-voting-platform-with-elliptic-curve-cryptography-bachelor-final-thesis" title="2011 An electronic voting platform with elliptic curve cryptography, Bachelor final thesis">2011 An electronic voting platform with elliptic curve cryptography, Bachelor final thesis</a></li></ul></li><li><a class="toc-href" href="#symposiums_1" title="Symposiums">Symposiums</a><ul><li><a class="toc-href" href="#ccs" title="CCS">CCS</a></li><li><a class="toc-href" href="#dualsph" title="DualSPH">DualSPH</a></li></ul></li></ul></li></ul></div>
+            </div>
+        </div>
 </div>
 <footer>
     <hr>

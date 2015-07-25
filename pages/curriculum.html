@@ -10,10 +10,10 @@
 
     <title>Curriculum - Sergi Siso</title>
 
-    <link rel="stylesheet" href="/theme/css/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="/theme/css/bootstrap.spacelab.min.css" type="text/css"/>
     <link href="/theme/css/font-awesome.min.css" rel="stylesheet">
     
-    <link href="/theme/css/pygments/native.css" rel="stylesheet">
+    <link href="/theme/css/pygments/github.css" rel="stylesheet">
     
     <link href="/theme/css/pelican-twitchy.min.css" rel="stylesheet">
 
@@ -32,31 +32,28 @@
         <div id="sidebar-wrapper-small" class="twitchy-background">
             <ul id="accordion-small" class="sidebar-nav sidebar-nav-small">
                 <li>
-        <a href="" title="Sergi Siso" class="collapsed">
-            <span class="glyphicon glyphicon-home"></span>
-        </a>
-    </li>
- 
-                    <li id="none" class="none">
-                        <a href="/pages/curriculum.html">
+                    <a href="/" class="collapsed">
+                        <span class="glyphicon glyphicon-home"></span>
+                    </a>
+                </li>
+                    <li  class="active">
+                        <a href="/pages/curriculum.html" class="collapsed">
                             <i class="fa fa-file-text padding-small"></i>
                         </a>
                     </li>
                     <li class="nav-divider"></li>
-                    <li id="none" class="none">
-                        <a href="/pages/publications.html">
+                    <li >
+                        <a href="/pages/publications.html" class="collapsed">
                             <i class="fa fa-book padding-small"></i>
                         </a>
                     </li>
                     <li class="nav-divider"></li>
-                    <li id="none" class="none">
-                        <a href="/pages/projects.html">
+                    <li >
+                        <a href="/pages/projects.html" class="collapsed">
                             <i class="fa fa-code padding-small"></i>
                         </a>
                     </li>
                     <li class="nav-divider"></li>
-
-
 
 
                 <li class="nav-divider"></li>
@@ -110,14 +107,14 @@
                         </a>
                     </li>
                     <li class="nav-divider"></li>
-                    <li>
+                    <li class="">
                         <a href="/pages/publications.html">
                             <i class="fa fa-book padding-small"></i>
                             Publications
                         </a>
                     </li>
                     <li class="nav-divider"></li>
-                    <li>
+                    <li class="">
                         <a href="/pages/projects.html">
                             <i class="fa fa-code padding-small"></i>
                             Projects
@@ -127,7 +124,7 @@
 
                     <li class="nav-divider"></li>
                     <li>
-                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-latest">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-latest" class="collapsed">
                             <span class="glyphicon glyphicon-th-list padding-small"></span>
                             Recent Blog Articles
                         </a>
@@ -193,23 +190,30 @@
                 </ul></li>
                 
                                 
+                
                 <li class="nav-divider"></li>
                 <li>
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-categories">
-                        <i class="fa fa-folder-open padding-small"></i>
-                        Categories
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-tags">
+                        <i class="fa fa-tags padding-small"></i>
+                        Tags
                     </a>
                 </li>
-                <li class="panel anti-panel"><ul id="collapse-categories" class="sidebar_submenu collapse ">
-                    <li >
-                        <a href="/category/blog.html">
-                            <i class="fa fa-folder-open padding-small"></i>
-                            Blog
-                            <span class="badge pull-right categorybadge">3</span>
+                <li class="panel anti-panel"><ul id="collapse-tags" class="sidebar_submenu collapse ">
+                    <li  >
+                        <a href="/tag/hpc.html">
+                            <i class="fa fa-tags padding-small"></i>
+                            hpc
+                            <span class="badge pull-right categorybadge">2</span>
+                        </a>
+                    </li>
+                    <li  >
+                        <a href="/tag/programming.html">
+                            <i class="fa fa-tags padding-small"></i>
+                            programming
+                            <span class="badge pull-right categorybadge">2</span>
                         </a>
                     </li>
                 </ul></li>
-                
             </ul>
         </div>
         <!-- /#sidebar-wrapper -->
@@ -227,8 +231,14 @@
     <div class="col-lg-9">
         <section id="content" class="body">
             <h1 class="page-header">Curriculum</h1>
+        </section>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-9">
+        <section id="content" class="body">
             <div class="entry-content">
-                <h2>Education</h2>
+                <h2 id="education">Education</h2>
 <h4>2013-2014 Master of Science with Distinction in <strong>High Performance Computing</strong>, EPCC, University of Edinburgh</h4>
 <ul>
 <li>
@@ -247,26 +257,26 @@
 <li>Thesis: "Electronic voting system over elliptic curve cryptography" | Advisor: J.M Miret</li>
 </ul>
 <h4>2008-2011 Associate Degree in <strong>Development of Electronic Products</strong>,IES Caparella</h4>
-<h2>Experience</h2>
-<h3>Industry</h3>
+<h2 id="experience">Experience</h2>
+<h3 id="industry">Industry</h3>
 <h4>July 2012 - Jan 2013 <strong>Programmer at SERIMAG MEDIA SL</strong>, Barcelona</h4>
 <p>Developed an implemented a Python document classifier for a banking application. It uses data mining technologies such as Support Vector Machines and the Viterbi algorithm.</p>
 <h4>July 2010 - Jan 2011 <strong>Programmer at Montajes Electricos Portoles S.A</strong>, Fraga</h4>
 <p>Programmed Programmable Logic Controllers for many applications (solar panels, refrigeration rooms, hydraulic pumps,...) and developed web interfaces to control themremotely.</p>
-<h3>Academia</h3>
+<h3 id="academia">Academia</h3>
 <h4>Feb 2013 - Aug 2013 <strong>Resident Student Researcher at Performance Tools Department. Barcelona Supercomputing Centre</strong>, Barcelona</h4>
 <p>Developed and implemented a software to process summarized profiling information from highly scalable applications and format such information in a way that the Dimemas software is able to simulate its performance in different systems. It was part of the CEPBA-tools toolchain.</p>
 <h4>Dec 2010 -Aug 2011 <strong>Grant-holder as a cryptography researcher at Department of Cryptographyand Graphs, University of LLeida</strong></h4>
 <p>Developed and implemented an electronic voting system which works on different types
 of homomorphic cryptosystems, specifically over elliptic curves. Studied and implemented other cryptography topics.</p>
-<h2>Languages</h2>
+<h2 id="languages_1">Languages</h2>
 <ul>
 <li>Catalan: Mother-tonge</li>
 <li>Spanish: Native</li>
 <li>English: Fluent*</li>
 </ul>
 <p>*English level evaluated with IELTS and Cambridge exams</p>
-<h2>Computer Skills</h2>
+<h2 id="computer-skills">Computer Skills</h2>
 <ul>
 <li>Languages: C, C++, Fortran, Java, Bash, Python, ...</li>
 <li>Platforms: Unix, HPC environments</li>
@@ -277,7 +287,7 @@ of homomorphic cryptosystems, specifically over elliptic curves. Studied and imp
 <li>Deep knowledge about OS's structure and compilers internals.</li>
 <li>Design, implementation and optimization of high performance parallel applications using different programming models and architectures.</li>
 </ul>
-<h2>Awards</h2>
+<h2 id="awards">Awards</h2>
 <ul>
 <li>Nov. 2014 <strong>MSc awarded with distinction</strong>. University of Edinburgh.</li>
 <li>July 2013 <strong>Highly Skilled Workforce Scholarship</strong>. Scottish Funding Council.</li>
@@ -286,14 +296,20 @@ of homomorphic cryptosystems, specifically over elliptic curves. Studied and imp
 <li>July 2008 <strong>Informatics Contest of Lleida</strong>. Second Place in under 18 category.</li>
 <li>July 2006 <strong>Cangur SCM</strong> (Tests from the Mathematical Society of Catalonia). Level 2, place 47 from 5260.</li>
 </ul>
-<h2>Volunteer work</h2>
+<h2 id="volunteer-work">Volunteer work</h2>
 <ul>
 <li>Jun 2014 <strong>Student Volunteer</strong> at International Supercomputing Conference 14</li>
 </ul>
-<h4>See also my <a href="/pages/publications.html">Publications</a> and <a href="/pages/projects.html">Projects</a></h4>
+<p><br/><br/>
+See also my <a href="/pages/publications.html">Publications</a> and <a href="/pages/projects.html">Projects</a></p>
             </div>
         </section>
     </div>
+        <div id="scrollspy">
+            <div class="col-lg-3 nav nav-stacked hidden-xs hidden-sm" data-spy="affix" data-offset-top="135">
+                <div id="toc"><ul><li><a class="toc-href" href="#" title="Curriculum">Curriculum</a><ul><li><a class="toc-href" href="#education" title="Education">Education</a></li><li><a class="toc-href" href="#experience" title="Experience">Experience</a><ul><li><a class="toc-href" href="#industry" title="Industry">Industry</a></li><li><a class="toc-href" href="#academia" title="Academia">Academia</a></li></ul></li><li><a class="toc-href" href="#languages_1" title="Languages">Languages</a></li><li><a class="toc-href" href="#computer-skills" title="Computer Skills">Computer Skills</a></li><li><a class="toc-href" href="#awards" title="Awards">Awards</a></li><li><a class="toc-href" href="#volunteer-work" title="Volunteer work">Volunteer work</a></li></ul></li></ul></div>
+            </div>
+        </div>
 </div>
 <footer>
     <hr>
