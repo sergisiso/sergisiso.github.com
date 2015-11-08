@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sergi Siso</title><link>/</link><description></description><atom:link href="/feeds/sergi-siso.rss.xml" rel="self"></atom:link><lastBuildDate>Fri, 03 Dec 2010 10:20:00 +0100</lastBuildDate><item><title>Test Post</title><link>/test-post.html</link><description>&lt;h1 id="test-post"&gt;Test post.&lt;/h1&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sergi Siso</title><link>/</link><description>PhD Student and Application Performane Engineer</description><atom:link href="/feeds/sergi-siso.rss.xml" rel="self"></atom:link><lastBuildDate>Fri, 03 Dec 2010 10:20:00 +0100</lastBuildDate><item><title>Test Post</title><link>/test-post.html</link><description>&lt;h1 id="test-post"&gt;Test post.&lt;/h1&gt;
 &lt;h2 id="just-testing-some-features"&gt;Just testing some features.&lt;/h2&gt;
 &lt;p&gt;Some style samples:
 Tables
