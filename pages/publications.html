@@ -2,294 +2,172 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="author" content="Sergi Siso" />
-        <meta name="description" content="Thesis Parallelisation of the Coupled Coherent States quantum dynamics simulation 2014 - Parallelisation of the Coupled Coherent States quantum dynamics simulation, MSc in HPC dissertation The Coupled Coherent States is a quantum molecular dynamics method which solves the time-dependent Schrödinger equation in a basis of semi-classical trajectories in an attempt ..." />
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="" />
 
-    <title>Publications - Sergi Siso</title>
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro|Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 
-    <link rel="stylesheet" href="/theme/css/bootstrap.spacelab.min.css" type="text/css"/>
-    <link href="/theme/css/font-awesome.min.css" rel="stylesheet">
-    
-    <link href="/theme/css/pygments/github.css" rel="stylesheet">
-    
-    <link href="/theme/css/pelican-twitchy.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="http://www.sergisiso.com/theme/stylesheet/style.min.css">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    
-    <!-- Feeds -->
+  <link rel="stylesheet" type="text/css" href="http://www.sergisiso.com/theme/pygments/github.min.css">
+  <link rel="stylesheet" type="text/css" href="http://www.sergisiso.com/theme/font-awesome/css/fontawesome.css">
+  <link rel="stylesheet" type="text/css" href="http://www.sergisiso.com/theme/font-awesome/css/brands.css">
+  <link rel="stylesheet" type="text/css" href="http://www.sergisiso.com/theme/font-awesome/css/solid.css">
+
+
+
+
+    <link rel="shortcut icon" href="http://www.sergisiso.com/images/favicon.png" type="image/x-icon">
+    <link rel="icon" href="http://www.sergisiso.com/images/favicon.png" type="image/x-icon">
+
+
+
+    <meta name="author" content="Sergi Siso" />
+    <meta name="description" content="" />
+<meta property="og:site_name" content="Sergi Siso"/>
+<meta property="og:type" content="blog"/>
+<meta property="og:title" content="Sergi Siso"/>
+<meta property="og:description" content=""/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content="http://www.sergisiso.com"/>
+<meta property="og:image" content="http://www.sergisiso.com/images/prof2.jpg">
+
+  <title>Sergi Siso &ndash; Publications</title>
+
 </head>
-<body data-spy="scroll" data-target="#scrollspy">
-    <div id="wrapper">
-        <!-- Sidebar -->
-        <div id="sidebar-wrapper-small" class="twitchy-background">
-            <ul id="accordion-small" class="sidebar-nav sidebar-nav-small">
-                <li>
-                    <a href="/" class="collapsed">
-                        <span class="glyphicon glyphicon-home"></span>
-                    </a>
-                </li>
-                    <li >
-                        <a href="/pages/curriculum.html" class="collapsed">
-                            <i class="fa fa-file-text padding-small"></i>
-                        </a>
-                    </li>
-                    <li class="nav-divider"></li>
-                    <li  class="active">
-                        <a href="/pages/publications.html" class="collapsed">
-                            <i class="fa fa-book padding-small"></i>
-                        </a>
-                    </li>
-                    <li class="nav-divider"></li>
-                    <li >
-                        <a href="/pages/projects.html" class="collapsed">
-                            <i class="fa fa-code padding-small"></i>
-                        </a>
-                    </li>
-                    <li class="nav-divider"></li>
+<body>
+  <aside>
+    <div>
+      <a href="http://www.sergisiso.com">
+        <img src="http://www.sergisiso.com/images/prof2.jpg" alt="Sergi Siso" title="Sergi Siso">
+      </a>
+      <h1><a href="http://www.sergisiso.com">Sergi Siso</a></h1>
 
+<p>High Performance Software Engineer @ Hartree Centre</p>
+      <nav>
+        <ul class="list">
+          <li><a href="http://www.sergisiso.com/pages/about.html#about">About</a></li>
+          <li><a href="http://www.sergisiso.com/pages/curriculum.html#curriculum">Curriculum</a></li>
+          <li><a href="http://www.sergisiso.com/pages/projects.html#projects">Projects</a></li>
+          <li><a href="http://www.sergisiso.com/pages/publications.html#publications">Publications</a></li>
 
-                <li class="nav-divider"></li>
-                <li>
-        <a href="/archives.html" title="Recent Articles" class="collapsed">
-            <span class="glyphicon glyphicon-th-list"></span>
-        </a>
-    </li>
-                
-                <li class="nav-divider"></li>
-                <li>
-                    <a data-toggle="collapse" data-parent="#accordion-small" href="#collapse-social-small" title="Social" class="collapsed">
-                        <i class="fa fa-users padding-small"></i>
-                    </a>
-                </li>
-                <li class="panel anti-panel"><ul id="collapse-social-small" class="collapse ">
-                    <li>
-                        <a href="https://bitbucket.org/ssiso" title="Bitbucket"><i class="fa fa-bitbucket-square fa-lg padding-small"></i></a>
-                    </li>
-                    <li>
-                        <a href="mailto:sergiesg@gmail.com" title="EMAIL"><i class="fa fa-envelope-square fa-lg padding-small"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/sergisiso" title="Github"><i class="fa fa-github-square fa-lg padding-small"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/sergisiso" title="Linkedin"><i class="fa fa-linkedin-square fa-lg padding-small"></i></a>
-                    </li>
-                </ul></li>
-                <li class="nav-divider"></li>
-                <li>
-        <a href="#" title="Back to top" class="collapsed">
-            <span class="fa fa-arrow-up"></span>
-        </a>
-    </li>
-            </ul>
-        </div>
-        <div id="sidebar-wrapper" class="twitchy-background">
-            <ul id="accordion" class="sidebar-nav">
-                <li class="sidebar-brand">
-                    <a href="/">
-                            <span class="glyphicon glyphicon-home padding-small"></span>
-                            Sergi Siso
-                    </a>
-                </li>
-                
-                    <li class="">
-                        <a href="/pages/curriculum.html">
-                            <i class="fa fa-file-text padding-small"></i>
-                            Curriculum
-                        </a>
-                    </li>
-                    <li class="nav-divider"></li>
-                    <li class="active">
-                        <a href="/pages/publications.html">
-                            <i class="fa fa-book padding-small"></i>
-                            Publications
-                        </a>
-                    </li>
-                    <li class="nav-divider"></li>
-                    <li class="">
-                        <a href="/pages/projects.html">
-                            <i class="fa fa-code padding-small"></i>
-                            Projects
-                        </a>
-                    </li>
-                    <li class="nav-divider"></li>
+        </ul>
+      </nav>
 
-                    <li class="nav-divider"></li>
-                    <li>
-                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-latest" class="collapsed">
-                            <span class="glyphicon glyphicon-th-list padding-small"></span>
-                            Recent Blog Articles
-                        </a>
-                    </li>
-                    <li class="panel anti-panel"><ul id="collapse-latest" class="sidebar_submenu collapse ">
-                        <li class="">
-                            <a class="hide-overflow" href="/test-post.html" title="Test Post">
-                                <i class="fa fa-file-text padding-small"></i>
-                                Test Post
-                            </a>
-                        </li>
-                    <li>
-                        <a href="/archives.html">
-                            <i class="fa fa-arrow-right padding-small"></i>
-                            More
-                        </a>
-                    </li>
-                    </ul></li>
-                <li class="nav-divider"></li>
-                <li>
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-social">
-                        <i class="fa fa-users padding-small"></i>
-                        Contact
-                    </a>
-                </li>
-                <li class="panel anti-panel"><ul id="collapse-social" class="sidebar_submenu collapse ">
-                    <li>
-                        <a href="https://bitbucket.org/ssiso" title="Bitbucket">
-                            <i class="fa fa-bitbucket-square fa-lg padding-small"></i>
-                            Bitbucket
-                        </a>
-                    </li>
-                    <li>
-                        <a href="mailto:sergiesg@gmail.com" title="EMAIL">
-                            <i class="fa fa-envelope-square fa-lg padding-small"></i>
-                            EMAIL
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/sergisiso" title="Github">
-                            <i class="fa fa-github-square fa-lg padding-small"></i>
-                            Github
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/sergisiso" title="Linkedin">
-                            <i class="fa fa-linkedin-square fa-lg padding-small"></i>
-                            Linkedin
-                        </a>
-                    </li>
-                </ul></li>
-                
-                                
-                
-                <li class="nav-divider"></li>
-                <li>
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-tags">
-                        <i class="fa fa-tags padding-small"></i>
-                        Tags
-                    </a>
-                </li>
-                <li class="panel anti-panel"><ul id="collapse-tags" class="sidebar_submenu collapse ">
-                    <li  >
-                        <a href="/tag/hpc.html">
-                            <i class="fa fa-tags padding-small"></i>
-                            hpc
-                            <span class="badge pull-right categorybadge">1</span>
-                        </a>
-                    </li>
-                    <li  >
-                        <a href="/tag/programming.html">
-                            <i class="fa fa-tags padding-small"></i>
-                            programming
-                            <span class="badge pull-right categorybadge">1</span>
-                        </a>
-                    </li>
-                </ul></li>
-            </ul>
-        </div>
-        <!-- /#sidebar-wrapper -->
-        <!-- open/close sidebar -->
-        <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">
-            <span id="right-arrow" class="glyphicon glyphicon-chevron-right"  title="expand sidebar"></span>
-            <span id="left-arrow" class="glyphicon glyphicon-chevron-left" title="minimize sidebar"></span>
-        </a>
-       <!-- /open/close sidebar -->
-
-        <!-- Page Content -->
-        <div id="page-content-wrapper">
-            <div class="container-fluid">
-<div class="row">
-    <div class="col-lg-9">
-        <section id="content" class="body">
-            <h1 class="page-header">Publications</h1>
-        </section>
+      <ul class="social">
+          <li><a class="sc-envelope" href="mailto:sergiesg@gmail.com" target="_blank">
+            <i class="fas fa-envelope">
+            </i>
+          </a></li>
+          <li><a class="sc-github" href="https://github.com/sergisiso" target="_blank">
+            <i class="fab fa-github">
+            </i>
+          </a></li>
+          <li><a class="sc-bitbucket" href="https://bitbucket.org/ssiso" target="_blank">
+            <i class="fab fa-bitbucket">
+            </i>
+          </a></li>
+          <li><a class="sc-instagram" href="https://www.instagram.com/sergisiso/" target="_blank">
+            <i class="fab fa-instagram">
+            </i>
+          </a></li>
+          <li><a class="sc-twitter" href="https://twitter.com/sergiesg" target="_blank">
+            <i class="fab fa-twitter">
+            </i>
+          </a></li>
+          <li><a class="sc-facebook" href="https://www.facebook.com/sergi.siso.9" target="_blank">
+            <i class="fab fa-facebook">
+            </i>
+          </a></li>
+          <li><a class="sc-linkedin" href="https://www.linkedin.com/in/sergisiso" target="_blank">
+            <i class="fab fa-linkedin">
+            </i>
+          </a></li>
+      </ul>
     </div>
-</div>
-<div class="row">
-    <div class="col-lg-9">
-        <section id="content" class="body">
-            <div class="entry-content">
-                <h1 class="fa fa-book fa-2x" id="thesis" style="color:#2D2D2D"> Thesis</h1>
-<h4 id="parallelisation-of-the-coupled-coherent-states-quantum-dynamics-simulation" style="visibility:hidden">Parallelisation of the Coupled Coherent States quantum dynamics simulation</h4>
+
+
+  </aside>
+  <main>
+
+
+<article class="single">
+  <header>
+    
+    <h1 id="publications">Publications</h1>
+  </header>
+  <div>
+<h1 class="fa fa-book fa-2x" style="color:#2D2D2D"> Thesis</h1>
+
+<h4 style="visibility:hidden">Parallelisation of the Coupled Coherent States quantum dynamics simulation</h4>
+
 <p><strong> 2014 - <a href="https://static.ph.ed.ac.uk/dissertations/hpc-msc/2013-2014/Parallelisation%20of%20the%20Coupled%20Coherent%20States%20quantum%20dynamics%20simulation.pdf">Parallelisation of the Coupled Coherent States quantum dynamics simulation</a>, MSc in HPC dissertation </strong></p>
-<p>The Coupled Coherent States is a quantum molecular dynamics method which solves the time-dependent Schr&ouml;dinger equation in a basis of semi-classical trajectories in an attempt to avoid exponential scaling. This makes it able to simulate and study the time evolution of photochemical reactions.
+<p>The Coupled Coherent States is a quantum molecular dynamics method which solves the time-dependent Schrödinger equation in a basis of semi-classical trajectories in an attempt to avoid exponential scaling. This makes it able to simulate and study the time evolution of photochemical reactions.
 This current project studies the performance of the Coupled Coherent States method and explores its potential parallelism. It proposes a parallel version of the simulation in order run the software faster and more accurately.
 The simulation is divisible in two parts where different parallelisation approaches are used. The generation of the trajectories represents an embarrassingly parallel problem and can be solved with a task distribution solution. The propagation of the trajectories needs to solve a ODE, which represent a highly coupled problem. To solve it, the parallisation of the Runge-Kutta Cash-Karp method, the implementation of a parallel derivation routine and the use of parallel lineal algebra routines (ScaLAPACK) are proposed.
 The final implementation achieves a speedup of x10 in the first part of the simulation, the generation of trajectories, and a x4.5 in the second part, the propagation of the trajectories, when they are run on 12 processors. Suggestions for further development of the parallel CCS code are also presented.</p>
-<h4 id="simulating-parallel-systems-using-summarized-application-information" style="visibility:hidden">Simulating parallel systems using summarized application information</h4>
+<h4 style="visibility:hidden">Simulating parallel systems using summarized application information</h4>
+
 <p><strong>2013 - <a href="http://upcommons.upc.edu/pfc/handle/2099.1/18972">Simulating parallel systems using summarized application information</a>, MTI master thesis</strong></p>
 <p>Examine and analyse how we can use the summarized information of parallel applications generated by the Extrae instrumentation tool in order to model the behavior of the application in a feasible way to predict its impact and the performance in different architectures.</p>
-<h4 id="an-electronic-voting-platform-with-elliptic-curve-cryptography" style="visibility:hidden">An electronic voting platform with elliptic curve cryptography</h4>
+<h4 style="visibility:hidden">An electronic voting platform with elliptic curve cryptography</h4>
+
 <p><strong>2011 - <a href="http://repositori.udl.cat/handle/10459.1/45765">An electronic voting platform with elliptic curve cryptography</a>, Bachelor final thesis</strong></p>
 <p>This document is part of a wider project which presents an e-Voting platform based on elliptic curve cryptography. It uses an hybrid combination of two of the main e-Voting paradigms to guarantee privacy and security in the counting phase, these are precisely, the mixnets and the homomorphic protocols. This document is focused in the description of the system and the maths and programming needed to solve the homomorphic part of it. In later chapters, there is a comparison between a simple mixing system and our system proposal.</p>
-<h1 class="fa fa-pie-chart fa-2x" id="presentations_1" style="color:#2D2D2D"> Presentations</h1>
-<h4 id="dl-meso-lattice-boltzmann-port-to-intel-xeon-phi" style="visibility:hidden">DL MESO Lattice Boltzmann port to Intel Xeon Phi</h4>
+<h1 class="fa fa-pie-chart fa-2x" style="color:#2D2D2D"> Presentations</h1>
+
+<h4 style="visibility:hidden">DL MESO Lattice Boltzmann port to Intel Xeon Phi</h4>
+
 <p><strong>November 2015 - <a href="">DL MESO Lattice Boltzmann port to Intel Xeon Phi</a> - Supercomputing '15, Austin</strong></p>
-<h4 id="benefits-of-leveraging-software-defined-visualization" style="visibility:hidden">Benefits of Leveraging Software Defined Visualization</h4>
+<h4 style="visibility:hidden">Benefits of Leveraging Software Defined Visualization</h4>
+
 <p><strong>November 2015 - <a href="">Benefits of Leveraging Software Defined Visualization</a> - Intel HPC Developer's Conference, Austin</strong></p>
-<h4 id="benefits-of-leveraging-software-defined-visualization_1" style="visibility:hidden">Benefits of Leveraging Software Defined Visualization</h4>
+<h4 style="visibility:hidden">Benefits of Leveraging Software Defined Visualization</h4>
+
 <p><strong>October 2015 - <a href="https://software.intel.com/en-us/ipcc/webinars">Benefits of Leveraging Software Defined Visualization</a> - Intel PCC Webminar</strong></p>
-<p>Visualization is an important aspect of several scientific workflows, but they are challenging because some systems do not have GPUs or the GPUs they have are too limited in memory to render the full datasets of interest. In this webinar you will learn how the Hartree Centre has moved some visualization solutions to their new non-GPU System. They have visualized very big datasets using the OSPRay technology (https://ospray.github.io/), a high-performance ray tracing library for Intel&reg; Xeon&reg; processors and Intel&reg; Xeon Phi&trade; coprocessors.</p>
-<h4 id="dualsphysics-performance-on-intel-xeon-phi" style="visibility:hidden">DualSPHysics Performance on Intel Xeon Phi</h4>
+<p>Visualization is an important aspect of several scientific workflows, but they are challenging because some systems do not have GPUs or the GPUs they have are too limited in memory to render the full datasets of interest. In this webinar you will learn how the Hartree Centre has moved some visualization solutions to their new non-GPU System. They have visualized very big datasets using the OSPRay technology (https://ospray.github.io/), a high-performance ray tracing library for Intel® Xeon® processors and Intel® Xeon Phi™ coprocessors.</p>
+<h4 style="visibility:hidden">DualSPHysics Performance on Intel Xeon Phi</h4>
+
 <p><strong>September 2015 - <a href="pdfs/DualSPHysics_UserGroup_XeonPhi.pdf">DualSPHysics Performance on Intel Xeon Phi</a> - UK SPH Symposium, Daresbury </strong></p>
-<h4 id="dualsphysics-performance-on-intel-xeon-phi_1" style="visibility:hidden">DualSPHysics Performance on Intel Xeon Phi</h4>
+<h4 style="visibility:hidden">DualSPHysics Performance on Intel Xeon Phi</h4>
+
 <p><strong>September 2015 - <a href="pdfs/DualSPHysics_UserGroup_XeonPhi.pdf">DualSPHysics Performance on Intel Xeon Phi</a> - DualSPHysics User Group, Manchester</strong></p>
-<h4 id="dualsphysics-performance-on-intel-xeon-phi_2" style="visibility:hidden">DualSPHysics Performance on Intel Xeon Phi</h4>
+<h4 style="visibility:hidden">DualSPHysics Performance on Intel Xeon Phi</h4>
+
 <p><strong>September 2015 - <a href="pdfs/DualSPHysics_UserGroup_XeonPhi.pdf">DualSPHysics Performance on Intel Xeon Phi</a> - Parco, Edinburgh</strong></p>
-<h4 id="dl-meso-lattice-boltzman-data-layout" style="visibility:hidden">DL MESO Lattice Boltzman Data Layout</h4>
+<h4 style="visibility:hidden">DL MESO Lattice Boltzman Data Layout</h4>
+
 <p><strong>July 2015 - <a href="pdfs/hartree_ixpub_slides_v2.pdf">DL MESO Lattice Boltzman Data Layout</a> - Tutorial: The Road to Application Performance on Intel Xeon Phi, International Supercomputing Conference 15, Frankfurt</strong></p>
-<h4 id="improving-vector-performance-with-vector-advisor" style="visibility:hidden">Improving Vector Performance with Vector Advisor</h4>
+<h4 style="visibility:hidden">Improving Vector Performance with Vector Advisor</h4>
+
 <p><strong>July 2015 - <a href="pdfs/hartree_simd_bof_v3.pdf">Improving Vector Performance with Vector Advisor</a> - SIMD BoF, International Supercomputing Conference 15, Frankfurt </strong></p>
-<h4 id="parallelisation-of-the-coupled-coherent-states-quantum-dynamics-simulation_1" style="visibility:hidden">Parallelisation of the Coupled Coherent States quantum dynamics simulation]</h4>
-<p><strong>December 2014 - <a href="pdfs/CCS_basic.pdf">Coupled Coherent States</a>, Quantum Dynamics Workshop at University of Edinburgh, School of Chemistry</strong></p>
-            </div>
-        </section>
-    </div>
-        <div id="scrollspy">
-            <div class="col-lg-3 nav nav-stacked hidden-xs hidden-sm" data-spy="affix" data-offset-top="135">
-                <div id="toc"><ul><li><a class="toc-href" href="#" title="Publications">Publications</a><ul><li><a class="toc-href" href="#thesis" title=" Thesis"> Thesis</a><ul><li><a class="toc-href" href="#parallelisation-of-the-coupled-coherent-states-quantum-dynamics-simulation" title="Parallelisation of the Coupled Coherent States quantum dynamics simulation">Parallelisation of the Coupled Coherent States quantum dynamics simulation</a></li><li><a class="toc-href" href="#simulating-parallel-systems-using-summarized-application-information" title="Simulating parallel systems using summarized application information">Simulating parallel systems using summarized application information</a></li><li><a class="toc-href" href="#an-electronic-voting-platform-with-elliptic-curve-cryptography" title="An electronic voting platform with elliptic curve cryptography">An electronic voting platform with elliptic curve cryptography</a></li></ul></li><li><a class="toc-href" href="#presentations_1" title=" Presentations"> Presentations</a><ul><li><a class="toc-href" href="#dl-meso-lattice-boltzmann-port-to-intel-xeon-phi" title="DL MESO Lattice Boltzmann port to Intel Xeon Phi">DL MESO Lattice Boltzmann port to Intel Xeon Phi</a></li><li><a class="toc-href" href="#benefits-of-leveraging-software-defined-visualization" title="Benefits of Leveraging Software Defined Visualization">Benefits of Leveraging Software Defined Visualization</a></li><li><a class="toc-href" href="#benefits-of-leveraging-software-defined-visualization_1" title="Benefits of Leveraging Software Defined Visualization">Benefits of Leveraging Software Defined Visualization</a></li><li><a class="toc-href" href="#dualsphysics-performance-on-intel-xeon-phi" title="DualSPHysics Performance on Intel Xeon Phi">DualSPHysics Performance on Intel Xeon Phi</a></li><li><a class="toc-href" href="#dualsphysics-performance-on-intel-xeon-phi_1" title="DualSPHysics Performance on Intel Xeon Phi">DualSPHysics Performance on Intel Xeon Phi</a></li><li><a class="toc-href" href="#dualsphysics-performance-on-intel-xeon-phi_2" title="DualSPHysics Performance on Intel Xeon Phi">DualSPHysics Performance on Intel Xeon Phi</a></li><li><a class="toc-href" href="#dl-meso-lattice-boltzman-data-layout" title="DL MESO Lattice Boltzman Data Layout">DL MESO Lattice Boltzman Data Layout</a></li><li><a class="toc-href" href="#improving-vector-performance-with-vector-advisor" title="Improving Vector Performance with Vector Advisor">Improving Vector Performance with Vector Advisor</a></li><li><a class="toc-href" href="#parallelisation-of-the-coupled-coherent-states-quantum-dynamics-simulation_1" title="Parallelisation of the Coupled Coherent States quantum dynamics simulation]">Parallelisation of the Coupled Coherent States quantum dynamics simulation]</a></li></ul></li></ul></li></ul></div>
-            </div>
-        </div>
-</div>
-<footer>
-    <hr>
-    <div class="row">
-        <div class="col-lg-9 text-center">
-            <p><small>
-                Built by <a href="http://docs.getpelican.com/en/latest">Pelican</a> / <a href="https://github.com/ingwinlu/pelican-twitchy">pelican-twitchy</a>
-                &middot;                    &copy; 2010 Sergi Siso
-            </small></p>
-        </div>
-    </div>
-</footer>            </div>
-        </div>
-        <!-- /#page-content-wrapper -->
-    </div>
-    <!-- /#wrapper -->
-    <!-- jQuery Version 1.11.2 -->
-    <script src="/theme/js/jquery-1.11.2.min.js"></script>
-    <!-- Bootstrap Core JavaScript -->
-    <script src="/theme/js/bootstrap.min.js"></script>
-    <!-- twitchy Script -->
-    <script src="/theme/js/pelican_twitchy.min.js"></script>
-    <!-- Github widget -->
-    <script src="/theme/js/jquery.githubRepoWidget.min.js"></script>
+<h4 style="visibility:hidden">Parallelisation of the Coupled Coherent States quantum dynamics simulation]</h4>
+
+<p><strong>December 2014 - <a href="pdfs/CCS_basic.pdf">Coupled Coherent States</a>, Quantum Dynamics Workshop at University of Edinburgh, School of Chemistry</strong></p>  </div>
+</article>
+
+    <footer>
+<p>&copy; Sergi Siso 2018-2019</p>
+<p>    Powered by <a href="http://getpelican.com" target="_blank">Pelican</a> - <a href="https://github.com/alexandrevicenzi/flex" target="_blank">Flex</a> theme by <a href="http://alexandrevicenzi.com" target="_blank">Alexandre Vicenzi</a>
+</p>    </footer>
+  </main>
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " Sergi Siso ",
+  "url" : "http://www.sergisiso.com",
+  "image": "http://www.sergisiso.com/images/prof2.jpg",
+  "description": ""
+}
+</script>
+
 </body>
 </html>

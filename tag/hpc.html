@@ -2,276 +2,141 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="hpc" />
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="" />
 
-    <title>hpc - Sergi Siso</title>
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro|Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 
-    <link rel="stylesheet" href="/theme/css/bootstrap.spacelab.min.css" type="text/css"/>
-    <link href="/theme/css/font-awesome.min.css" rel="stylesheet">
-    
-    <link href="/theme/css/pygments/github.css" rel="stylesheet">
-    
-    <link href="/theme/css/pelican-twitchy.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="http://www.sergisiso.com/theme/stylesheet/style.min.css">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    
-    <!-- Feeds -->
+  <link rel="stylesheet" type="text/css" href="http://www.sergisiso.com/theme/pygments/github.min.css">
+  <link rel="stylesheet" type="text/css" href="http://www.sergisiso.com/theme/font-awesome/css/fontawesome.css">
+  <link rel="stylesheet" type="text/css" href="http://www.sergisiso.com/theme/font-awesome/css/brands.css">
+  <link rel="stylesheet" type="text/css" href="http://www.sergisiso.com/theme/font-awesome/css/solid.css">
+
+
+
+
+    <link rel="shortcut icon" href="http://www.sergisiso.com/images/favicon.png" type="image/x-icon">
+    <link rel="icon" href="http://www.sergisiso.com/images/favicon.png" type="image/x-icon">
+
+
+
+    <meta name="author" content="Sergi Siso" />
+    <meta name="description" content="" />
+<meta property="og:site_name" content="Sergi Siso"/>
+<meta property="og:type" content="blog"/>
+<meta property="og:title" content="Sergi Siso"/>
+<meta property="og:description" content=""/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content="http://www.sergisiso.com"/>
+<meta property="og:image" content="http://www.sergisiso.com/images/prof2.jpg">
+
+  <title>Sergi Siso &ndash;     Tag hpc
+</title>
+
 </head>
-<body data-spy="scroll" data-target="#scrollspy">
-    <div id="wrapper">
-        <!-- Sidebar -->
-        <div id="sidebar-wrapper-small" class="twitchy-background">
-            <ul id="accordion-small" class="sidebar-nav sidebar-nav-small">
-                <li>
-                    <a href="/" class="collapsed">
-                        <span class="glyphicon glyphicon-home"></span>
-                    </a>
-                </li>
-                    <li >
-                        <a href="/pages/curriculum.html" class="collapsed">
-                            <i class="fa fa-file-text padding-small"></i>
-                        </a>
-                    </li>
-                    <li class="nav-divider"></li>
-                    <li >
-                        <a href="/pages/publications.html" class="collapsed">
-                            <i class="fa fa-book padding-small"></i>
-                        </a>
-                    </li>
-                    <li class="nav-divider"></li>
-                    <li >
-                        <a href="/pages/projects.html" class="collapsed">
-                            <i class="fa fa-code padding-small"></i>
-                        </a>
-                    </li>
-                    <li class="nav-divider"></li>
+<body>
+  <aside>
+    <div>
+      <a href="http://www.sergisiso.com">
+        <img src="http://www.sergisiso.com/images/prof2.jpg" alt="Sergi Siso" title="Sergi Siso">
+      </a>
+      <h1><a href="http://www.sergisiso.com">Sergi Siso</a></h1>
 
+<p>High Performance Software Engineer @ Hartree Centre</p>
+      <nav>
+        <ul class="list">
+          <li><a href="http://www.sergisiso.com/pages/about.html#about">About</a></li>
+          <li><a href="http://www.sergisiso.com/pages/curriculum.html#curriculum">Curriculum</a></li>
+          <li><a href="http://www.sergisiso.com/pages/projects.html#projects">Projects</a></li>
+          <li><a href="http://www.sergisiso.com/pages/publications.html#publications">Publications</a></li>
 
-                <li class="nav-divider"></li>
-                <li>
-        <a href="/archives.html" title="Recent Articles" class="collapsed">
-            <span class="glyphicon glyphicon-th-list"></span>
-        </a>
-    </li>
-                
-                <li class="nav-divider"></li>
-                <li>
-                    <a data-toggle="collapse" data-parent="#accordion-small" href="#collapse-social-small" title="Social" class="collapsed">
-                        <i class="fa fa-users padding-small"></i>
-                    </a>
-                </li>
-                <li class="panel anti-panel"><ul id="collapse-social-small" class="collapse ">
-                    <li>
-                        <a href="https://bitbucket.org/ssiso" title="Bitbucket"><i class="fa fa-bitbucket-square fa-lg padding-small"></i></a>
-                    </li>
-                    <li>
-                        <a href="mailto:sergiesg@gmail.com" title="EMAIL"><i class="fa fa-envelope-square fa-lg padding-small"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/sergisiso" title="Github"><i class="fa fa-github-square fa-lg padding-small"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/sergisiso" title="Linkedin"><i class="fa fa-linkedin-square fa-lg padding-small"></i></a>
-                    </li>
-                </ul></li>
-                <li class="nav-divider"></li>
-                <li>
-        <a href="#" title="Back to top" class="collapsed">
-            <span class="fa fa-arrow-up"></span>
-        </a>
-    </li>
-            </ul>
-        </div>
-        <div id="sidebar-wrapper" class="twitchy-background">
-            <ul id="accordion" class="sidebar-nav">
-                <li class="sidebar-brand">
-                    <a href="/">
-                            <span class="glyphicon glyphicon-home padding-small"></span>
-                            Sergi Siso
-                    </a>
-                </li>
-                
-                    <li class="">
-                        <a href="/pages/curriculum.html">
-                            <i class="fa fa-file-text padding-small"></i>
-                            Curriculum
-                        </a>
-                    </li>
-                    <li class="nav-divider"></li>
-                    <li class="">
-                        <a href="/pages/publications.html">
-                            <i class="fa fa-book padding-small"></i>
-                            Publications
-                        </a>
-                    </li>
-                    <li class="nav-divider"></li>
-                    <li class="">
-                        <a href="/pages/projects.html">
-                            <i class="fa fa-code padding-small"></i>
-                            Projects
-                        </a>
-                    </li>
-                    <li class="nav-divider"></li>
+        </ul>
+      </nav>
 
-                    <li class="nav-divider"></li>
-                    <li>
-                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-latest" class="collapsed">
-                            <span class="glyphicon glyphicon-th-list padding-small"></span>
-                            Recent Blog Articles
-                        </a>
-                    </li>
-                    <li class="panel anti-panel"><ul id="collapse-latest" class="sidebar_submenu collapse ">
-                        <li class="">
-                            <a class="hide-overflow" href="/test-post.html" title="Test Post">
-                                <i class="fa fa-file-text padding-small"></i>
-                                Test Post
-                            </a>
-                        </li>
-                    <li>
-                        <a href="/archives.html">
-                            <i class="fa fa-arrow-right padding-small"></i>
-                            More
-                        </a>
-                    </li>
-                    </ul></li>
-                <li class="nav-divider"></li>
-                <li>
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-social">
-                        <i class="fa fa-users padding-small"></i>
-                        Contact
-                    </a>
-                </li>
-                <li class="panel anti-panel"><ul id="collapse-social" class="sidebar_submenu collapse ">
-                    <li>
-                        <a href="https://bitbucket.org/ssiso" title="Bitbucket">
-                            <i class="fa fa-bitbucket-square fa-lg padding-small"></i>
-                            Bitbucket
-                        </a>
-                    </li>
-                    <li>
-                        <a href="mailto:sergiesg@gmail.com" title="EMAIL">
-                            <i class="fa fa-envelope-square fa-lg padding-small"></i>
-                            EMAIL
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/sergisiso" title="Github">
-                            <i class="fa fa-github-square fa-lg padding-small"></i>
-                            Github
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/sergisiso" title="Linkedin">
-                            <i class="fa fa-linkedin-square fa-lg padding-small"></i>
-                            Linkedin
-                        </a>
-                    </li>
-                </ul></li>
-                
-                                
-                
-                <li class="nav-divider"></li>
-                <li>
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-tags">
-                        <i class="fa fa-tags padding-small"></i>
-                        Tags
-                    </a>
-                </li>
-                <li class="panel anti-panel"><ul id="collapse-tags" class="sidebar_submenu collapse in">
-                    <li class="active" >
-                        <a href="/tag/hpc.html">
-                            <i class="fa fa-tags padding-small"></i>
-                            hpc
-                            <span class="badge pull-right categorybadge">1</span>
-                        </a>
-                    </li>
-                    <li  >
-                        <a href="/tag/programming.html">
-                            <i class="fa fa-tags padding-small"></i>
-                            programming
-                            <span class="badge pull-right categorybadge">1</span>
-                        </a>
-                    </li>
-                </ul></li>
-            </ul>
-        </div>
-        <!-- /#sidebar-wrapper -->
-        <!-- open/close sidebar -->
-        <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">
-            <span id="right-arrow" class="glyphicon glyphicon-chevron-right"  title="expand sidebar"></span>
-            <span id="left-arrow" class="glyphicon glyphicon-chevron-left" title="minimize sidebar"></span>
-        </a>
-       <!-- /open/close sidebar -->
-
-        <!-- Page Content -->
-        <div id="page-content-wrapper">
-            <div class="container-fluid">
-<div class="row">
-    <div class="col-lg-9">
-        <header class="page-header">
-            <h1>Articles featuring hpc</h1>
-        </header>
+      <ul class="social">
+          <li><a class="sc-envelope" href="mailto:sergiesg@gmail.com" target="_blank">
+            <i class="fas fa-envelope">
+            </i>
+          </a></li>
+          <li><a class="sc-github" href="https://github.com/sergisiso" target="_blank">
+            <i class="fab fa-github">
+            </i>
+          </a></li>
+          <li><a class="sc-bitbucket" href="https://bitbucket.org/ssiso" target="_blank">
+            <i class="fab fa-bitbucket">
+            </i>
+          </a></li>
+          <li><a class="sc-instagram" href="https://www.instagram.com/sergisiso/" target="_blank">
+            <i class="fab fa-instagram">
+            </i>
+          </a></li>
+          <li><a class="sc-twitter" href="https://twitter.com/sergiesg" target="_blank">
+            <i class="fab fa-twitter">
+            </i>
+          </a></li>
+          <li><a class="sc-facebook" href="https://www.facebook.com/sergi.siso.9" target="_blank">
+            <i class="fab fa-facebook">
+            </i>
+          </a></li>
+          <li><a class="sc-linkedin" href="https://www.linkedin.com/in/sergisiso" target="_blank">
+            <i class="fab fa-linkedin">
+            </i>
+          </a></li>
+      </ul>
     </div>
-</div>
-<div class="row">
-    <div class="col-lg-9">
-            <article>
-                <h4>
-                    <time datetime="2010-12-03T10:20:00+01:00"> Fri 03 December 2010</time>
-                    <a href="/test-post.html">Test Post</a>
-                </h4>
-            </article>
-    </div>
-</div>
-<footer>
-    <hr>
-    <div class="row">
-        <div class="col-lg-9 text-center">
-            <p><small>
-                Built by <a href="http://docs.getpelican.com/en/latest">Pelican</a> / <a href="https://github.com/ingwinlu/pelican-twitchy">pelican-twitchy</a>
-                &middot;                    &copy; 2010 Sergi Siso
-            </small></p>
-        </div>
-    </div>
-</footer>            </div>
-        </div>
-        <!-- /#page-content-wrapper -->
-    </div>
-    <!-- /#wrapper -->
-    <!-- jQuery Version 1.11.2 -->
-    <script src="/theme/js/jquery-1.11.2.min.js"></script>
-    <!-- Bootstrap Core JavaScript -->
-    <script src="/theme/js/bootstrap.min.js"></script>
-    <!-- twitchy Script -->
-    <script src="/theme/js/pelican_twitchy.min.js"></script>
-    <!-- Github widget -->
-    <script src="/theme/js/jquery.githubRepoWidget.min.js"></script>
-<script>
-    function FadeInOnScroll(ObjectList){
-        ObjectList.each(function(i) {
-            var bottom_of_object = $(this).position().top + $(this).outerHeight();
-            var bottom_of_window = $(window).scrollTop() + $(window).height();
 
-            if( bottom_of_window > bottom_of_object ){
-                $(this).fadeTo(750,1);
-            }
-        });
-    }
 
-    articles = $("article").fadeTo(0, 0.05);
-    FadeInOnScroll(articles)
+  </aside>
+  <main>
 
-    $(window).scroll(function() {
-        FadeInOnScroll(articles)
-    });
+
+
+
+<article>
+  <header>
+    <h2><a href="http://www.sergisiso.com/test-post.html#test-post">Test Post</a></h2>
+    <p>
+          Posted on Fri 03 December 2010 in <a href="http://www.sergisiso.com/category/misc.html">misc</a>
+
+
+          &#8226;     Tagged with
+
+              <a href="http://www.sergisiso.com/tag/programming.html">programming</a>,              <a href="http://www.sergisiso.com/tag/hpc.html">hpc</a>
+    </p>
+  </header>
+  <div>
+      <p>empty</p>
+  </div>
+</article>
+
+
+
+
+
+    <footer>
+<p>&copy; Sergi Siso 2018-2019</p>
+<p>    Powered by <a href="http://getpelican.com" target="_blank">Pelican</a> - <a href="https://github.com/alexandrevicenzi/flex" target="_blank">Flex</a> theme by <a href="http://alexandrevicenzi.com" target="_blank">Alexandre Vicenzi</a>
+</p>    </footer>
+  </main>
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " Sergi Siso ",
+  "url" : "http://www.sergisiso.com",
+  "image": "http://www.sergisiso.com/images/prof2.jpg",
+  "description": ""
+}
 </script>
+
 </body>
 </html>
