@@ -49,36 +49,37 @@
 <p>High Performance Software Engineer @ Hartree Centre</p>
       <nav>
         <ul class="list">
-          <li><a href="https://sergisiso.github.io/#about">About</a></li>
-          <li><a href="https://sergisiso.github.io/pages/curriculum.html#curriculum">Curriculum</a></li>
           <li><a href="https://sergisiso.github.io/pages/projects.html#projects">Projects</a></li>
           <li><a href="https://sergisiso.github.io/pages/publications.html#publications">Publications</a></li>
+          <li><a href="https://sergisiso.github.io/#about">About</a></li>
+          <li><a href="https://sergisiso.github.io/pages/curriculum.html#curriculum">Curriculum</a></li>
 
         </ul>
       </nav>
 
       <ul class="social">
-          <li><a class="sc-envelope" href="mailto:sergiesg@gmail.com" target="_blank">
+          <li>
+            <a  class="sc-envelope" href="mailto:sergiesg@gmail.com" target="_blank">
             <i class="fas fa-envelope">
             </i>
           </a></li>
-          <li><a class="sc-github" href="https://github.com/sergisiso" target="_blank">
+          <li>
+            <a  class="sc-github" href="https://github.com/sergisiso" target="_blank">
             <i class="fab fa-github">
             </i>
           </a></li>
-          <li><a class="sc-instagram" href="https://www.instagram.com/sergisiso/" target="_blank">
+          <li>
+            <a  class="sc-instagram" href="https://www.instagram.com/sergisiso/" target="_blank">
             <i class="fab fa-instagram">
             </i>
           </a></li>
-          <li><a class="sc-twitter" href="https://twitter.com/sergiesg" target="_blank">
+          <li>
+            <a  class="sc-twitter" href="https://twitter.com/sergiesg" target="_blank">
             <i class="fab fa-twitter">
             </i>
           </a></li>
-          <li><a class="sc-facebook" href="https://www.facebook.com/sergi.siso.9" target="_blank">
-            <i class="fab fa-facebook">
-            </i>
-          </a></li>
-          <li><a class="sc-linkedin" href="https://www.linkedin.com/in/sergisiso" target="_blank">
+          <li>
+            <a  class="sc-linkedin" href="https://www.linkedin.com/in/sergisiso" target="_blank">
             <i class="fab fa-linkedin">
             </i>
           </a></li>
@@ -97,16 +98,10 @@
   </header>
   <div>
 <p><br>
-<h2 class="fa fa-chart-pie fa-2x" style="display:inline"></h2><h2 style="display:inline;padding-left:20px;">Presentations</h2></p>
-<p><strong>November 2015 - <a href="">DL MESO Lattice Boltzmann port to Intel Xeon Phi</a></strong> <em>Supercomputing '15</em>, Austin</p>
-<p><strong>November 2015 - <a href="">Benefits of Leveraging Software Defined Visualization</a></strong> <em>Intel HPC Developer's Conference</em>, Austin</p>
-<p><strong>October 2015 - <a href="https://software.intel.com/en-us/ipcc/webinars">Benefits of Leveraging Software Defined Visualization</a></strong>, Intel PCC Webminar</p>
-<p><strong>September 2015 - <a href="pdfs/DualSPHysics_UserGroup_XeonPhi.pdf">DualSPHysics Performance on Intel Xeon Phi</a></strong>, Presented at <em>UK SPH Symposium</em>, Daresbury &amp; <em>DualSPHysics User Group</em>, Manchester</p>
-<p><strong>July 2015 - <a href="pdfs/hartree_ixpub_slides_v2.pdf">DL MESO Lattice Boltzman Data Layout</a></strong>,  <em>Tutorial: The Road to Application Performance on Intel Xeon Phi, International Supercomputing Conference 15</em>, Frankfurt</p>
-<p><strong>July 2015 - <a href="pdfs/hartree_simd_bof_v3.pdf">Improving Vector Performance with Vector Advisor</a></strong>, <em>SIMD BoF, International Supercomputing Conference 15</em>, Frankfurt</p>
-<p><strong>December 2014 - <a href="pdfs/CCS_basic.pdf">Coupled Coherent States</a></strong>, <em>Quantum Dynamics Workshop</em> at University of Edinburgh, School of Chemistry</p>
-<p><br>
 <h2 class="fa fa-file-alt fa-2x" style="display:inline"></h2><h2 style="display:inline;padding-left:20px;">Papers</h2></p>
+<p><strong>2019 - <a href="https://dl.acm.org/citation.cfm?doid=3366460.3356842">Evaluating Auto-Vectorizing Compilers through Objective Withdrawal of Useful Information</a></strong> Sergi Siso, Wes Armour, Jeyan Thiyagalingam, <em>ACM Transactions on Architecture and Code Optimization (TACO) 16 (4), 40</em></p>
+<p>Abstract: "The need for compilers to generate highly vectorized code is at an all-time high with the increasing vectorization capabilities of modern processors. To this end, the information that compilers have at their disposal, either through code analysis or via user annotations, is instrumental for auto-vectorization, and hence for the overall performance. However, the information that is available to compilers at compile time and its accuracy varies greatly, as does the resulting performance of vectorizing compilers. Benchmarks like the Test Suite for Vectorizing Compilers (TSVC) have been developed to evaluate the vectorization capability of such compilers. The overarching approach of TSVC and similar benchmarks is to evaluate the compilers under the best possible scenario (i.e., assuming that compilers have access to all useful contextual information at compile time). Although this idealistic view is useful to observe the capability of compilers for auto-vectorization, it is not a true reflection of the conditions found in real-world applications.</p>
+<p>In this article, we propose a novel method for evaluating the auto-vectorization capability of compilers. Instead of assuming that compilers have access to a wealth of information at compile time, we formulate a method to objectively supply or withdraw information that would otherwise aid the compiler in the auto-vectorization process. This method is orthogonal to the approach adopted by TSVC, and as such, it provides the means of assessing the capabilities of modern vectorizing compilers in a more detailed way."</p>
 <p><strong>2016 - <a href="https://link.springer.com/chapter/10.1007/978-3-319-46079-6_13">Early Application Performance at the Hartree Centre with the OpenPOWER Architecture.</a></strong> Mike Ashworth, Jianping Meng, Vedran Novakovic, Sergi Siso, <em>International Conference on High Performance Computing</em></p>
 <p>Abstract: "The Hartree Centre has been established as a UK focus for industrial
 engagement. STFC has acquired a new IBM system based on the OpenPOWER
@@ -148,12 +143,21 @@ The final implementation achieves a speedup of x10 in the first part of the simu
 Abstract: "Examine and analyse how we can use the summarized information of parallel applications generated by the Extrae instrumentation tool in order to model the behavior of the application in a feasible way to predict its impact and the performance in different architectures."</p>
 <p><strong>2011 - <a href="http://repositori.udl.cat/handle/10459.1/45765">An electronic voting platform with elliptic curve cryptography</a> (Bachelor final thesis)</strong>, Univerity of Lleida</p>
 <p>Advisor: J.M Miret <br>
-Abstract: "This document is part of a wider project which presents an e-Voting platform based on elliptic curve cryptography. It uses an hybrid combination of two of the main e-Voting paradigms to guarantee privacy and security in the counting phase, these are precisely, the mixnets and the homomorphic protocols. This document is focused in the description of the system and the maths and programming needed to solve the homomorphic part of it. In later chapters, there is a comparison between a simple mixing system and our system proposal."</p>  </div>
+Abstract: "This document is part of a wider project which presents an e-Voting platform based on elliptic curve cryptography. It uses an hybrid combination of two of the main e-Voting paradigms to guarantee privacy and security in the counting phase, these are precisely, the mixnets and the homomorphic protocols. This document is focused in the description of the system and the maths and programming needed to solve the homomorphic part of it. In later chapters, there is a comparison between a simple mixing system and our system proposal."</p>
+<p><br>
+<h2 class="fa fa-chart-pie fa-2x" style="display:inline"></h2><h2 style="display:inline;padding-left:20px;">Presentations</h2></p>
+<p><strong>November 2015 - <a href="">DL MESO Lattice Boltzmann port to Intel Xeon Phi</a></strong> <em>Supercomputing '15</em>, Austin</p>
+<p><strong>November 2015 - <a href="">Benefits of Leveraging Software Defined Visualization</a></strong> <em>Intel HPC Developer's Conference</em>, Austin</p>
+<p><strong>October 2015 - <a href="https://software.intel.com/en-us/ipcc/webinars">Benefits of Leveraging Software Defined Visualization</a></strong>, Intel PCC Webminar</p>
+<p><strong>September 2015 - <a href="pdfs/DualSPHysics_UserGroup_XeonPhi.pdf">DualSPHysics Performance on Intel Xeon Phi</a></strong>, Presented at <em>UK SPH Symposium</em>, Daresbury &amp; <em>DualSPHysics User Group</em>, Manchester</p>
+<p><strong>July 2015 - <a href="pdfs/hartree_ixpub_slides_v2.pdf">DL MESO Lattice Boltzman Data Layout</a></strong>,  <em>Tutorial: The Road to Application Performance on Intel Xeon Phi, International Supercomputing Conference 15</em>, Frankfurt</p>
+<p><strong>July 2015 - <a href="pdfs/hartree_simd_bof_v3.pdf">Improving Vector Performance with Vector Advisor</a></strong>, <em>SIMD BoF, International Supercomputing Conference 15</em>, Frankfurt</p>
+<p><strong>December 2014 - <a href="pdfs/CCS_basic.pdf">Coupled Coherent States</a></strong>, <em>Quantum Dynamics Workshop</em> at University of Edinburgh, School of Chemistry</p>  </div>
 </article>
 
     <footer>
 <p>&copy; Sergi Siso 2018-2019</p>
-<p>    Powered by <a href="http://getpelican.com" target="_blank">Pelican</a> - <a href="https://github.com/alexandrevicenzi/flex" target="_blank">Flex</a> theme by <a href="http://alexandrevicenzi.com" target="_blank">Alexandre Vicenzi</a>
+<p>    Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a href="http://bit.ly/flex-pelican" target="_blank">Flex</a> theme
 </p>    </footer>
   </main>
 
