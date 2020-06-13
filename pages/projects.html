@@ -13,10 +13,9 @@
     <link rel="stylesheet" type="text/css" href="https://sergisiso.github.io/theme/stylesheet/style.min.css">
 
   <link rel="stylesheet" type="text/css" href="https://sergisiso.github.io/theme/pygments/github.min.css">
-  <link rel="stylesheet" type="text/css" href="https://sergisiso.github.io/theme/font-awesome/css/fontawesome.css">
-  <link rel="stylesheet" type="text/css" href="https://sergisiso.github.io/theme/font-awesome/css/brands.css">
-  <link rel="stylesheet" type="text/css" href="https://sergisiso.github.io/theme/font-awesome/css/solid.css">
+  <link rel="stylesheet" type="text/css" href="https://sergisiso.github.io/theme/font-awesome/css/font-awesome.min.css">
 
+    <link href="https://sergisiso.github.io/custom.css" rel="stylesheet">
 
 
 
@@ -49,40 +48,20 @@
 <p>High Performance Software Engineer @ Hartree Centre</p>
       <nav>
         <ul class="list">
-          <li><a href="https://sergisiso.github.io/pages/projects.html#projects">Projects</a></li>
-          <li><a href="https://sergisiso.github.io/pages/publications.html#publications">Publications</a></li>
           <li><a href="https://sergisiso.github.io/#about">About</a></li>
           <li><a href="https://sergisiso.github.io/pages/curriculum.html#curriculum">Curriculum</a></li>
+          <li><a href="https://sergisiso.github.io/pages/projects.html#projects">Projects</a></li>
+          <li><a href="https://sergisiso.github.io/pages/publications.html#publications">Publications</a></li>
 
         </ul>
       </nav>
 
       <ul class="social">
-          <li>
-            <a  class="sc-envelope" href="mailto:sergiesg@gmail.com" target="_blank">
-            <i class="fas fa-envelope">
-            </i>
-          </a></li>
-          <li>
-            <a  class="sc-github" href="https://github.com/sergisiso" target="_blank">
-            <i class="fab fa-github">
-            </i>
-          </a></li>
-          <li>
-            <a  class="sc-instagram" href="https://www.instagram.com/sergisiso/" target="_blank">
-            <i class="fab fa-instagram">
-            </i>
-          </a></li>
-          <li>
-            <a  class="sc-twitter" href="https://twitter.com/sergiesg" target="_blank">
-            <i class="fab fa-twitter">
-            </i>
-          </a></li>
-          <li>
-            <a  class="sc-linkedin" href="https://www.linkedin.com/in/sergisiso" target="_blank">
-            <i class="fab fa-linkedin">
-            </i>
-          </a></li>
+        <li><a class="sc-envelope" href="mailto:sergiesg@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a></li>
+        <li><a class="sc-github" href="https://github.com/sergisiso" target="_blank"><i class="fa fa-github"></i></a></li>
+        <li><a class="sc-instagram" href="https://www.instagram.com/sergisiso/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+        <li><a class="sc-twitter" href="https://twitter.com/sergiesg" target="_blank"><i class="fa fa-twitter"></i></a></li>
+        <li><a class="sc-linkedin" href="https://www.linkedin.com/in/sergisiso" target="_blank"><i class="fa fa-linkedin"></i></a></li>
       </ul>
     </div>
 
@@ -101,25 +80,36 @@
 <br>
 PSyclone is a code generation system developed for use in finite
 element, finite volume and finite difference codes. Notably, it is used 
-in the <a href="https://www.metoffice.gov.uk/research/modelling-systems/lfric">LFRic
-project</a>.
-PSyclone is also being extended to support an API being developed in the <a href="https://puma.nerc.ac.uk/trac/GOcean">GOcean
-project</a> for two finite difference ocean model benchmarks, one of which is based
-on the <a href="https://www.nemo-ocean.eu/">NEMO</a> ocean model. More information on <a href="https://psyclone.readthedocs.io/en/stable/">PSyclone
-ReadTheDocs</a>.</p>
-<p><strong>Developing Doping (code not released yet)</strong>
+in the
+<a href="https://www.metoffice.gov.uk/research/modelling-systems/lfric">LFRic project</a>.
+PSyclone is also being extended to support an API being developed in the
+<a href="https://puma.nerc.ac.uk/trac/GOcean">GOcean project</a> for two finite difference
+ocean model benchmarks, one of which is based on the
+<a href="https://www.nemo-ocean.eu/">NEMO</a> ocean model. More information on
+<a href="https://psyclone.readthedocs.io/en/stable/">PSyclone ReadTheDocs</a>.</p>
+<p><strong>Contributing to <a href="https://github.com/stfc/PSyclone">PSycloneBench</a></strong>
+<br>
+PSycloneBench contains various small benchmarks used to inform the development
+of the PSyclone. </p>
+<p><strong>DopingHPC (code not released yet)</strong>
 <br>
 Doping (Dynamic OPtimization INjector) is a tool to embed a dynamic
 recompilation infrastructure to C and C++ applications in order to
 optimize (and improve the vectorization) of loops. The tools targets
 traditional HPC applications and leverages the additional contextual
 information available at run-time to perform the optimizations. </p>
-<p><strong>Developing multiperf (code not released yet)</strong>
+<p><strong><a href="https://github.com/sergisiso/autovec-benchmark">Autovect-benchmark</a></strong>
 <br>
-multiperf is a parallel performance analysis tool build on top of the <em>Linux
-perf</em> tool. It also contains a JS frontend for interactive visualization of
-the produced traces.</p>
-<p><strong>Contribution to <a href="https://gitlab.com/hartreetraining/openmp-training-2018">Hartree Advance Programming
+This Test-Suite evaluates the auto-vectorization capabilities of compilers
+for different amounts of compile-time provided information. This contrasts with
+traditional test-suites that only provide an implementation-specific source to
+the compiler. To achieve this we have extended the TSVC benchmark and 6
+micro-kernels (Binomial options, Black-Scholes, MandelBrot, Convolutions,
+Small matrix-matrix multiplication and Stencil computation) with preprocessor
+macros to choose whether the value of: loop bounds, parameters in Array Indices
+and offsets, parameters in Conditional Evaluations, adn array attributes such as
+alignment and non-aliasing constrains is provided at compile-time or hidden until the run-time.</p>
+<p><strong>Contributed to <a href="https://gitlab.com/hartreetraining/openmp-training-2018">Hartree Advance Programming
 Course</a></strong>
 <br>
 Source of the <a href="https://hartreetraining.gitlab.io/openmp-training-2018/">Hartree Centre OpenMP Training</a></p>
@@ -143,8 +133,8 @@ to take advantage of highly parallel architectures with long vector units.</p>
 </article>
 
     <footer>
-<p>&copy; Sergi Siso 2018-2019</p>
-<p>    Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a href="http://bit.ly/flex-pelican" target="_blank">Flex</a> theme
+<p>&copy; Sergi Siso 2018-2020</p>
+<p>    Powered by <a href="http://getpelican.com" target="_blank">Pelican</a> - <a href="https://github.com/alexandrevicenzi/flex" target="_blank">Flex</a> theme by <a href="http://alexandrevicenzi.com" target="_blank">Alexandre Vicenzi</a>
 </p>    </footer>
   </main>
 

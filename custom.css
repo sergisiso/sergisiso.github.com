@@ -1,0 +1,11 @@
+aside div img {
+    border-radius: 10%;
+    width: 80%;
+    max-width: 250px;
+}
+
+main {
+    max-width: 1000px;
+    text-align: justify;
+    text-justify: inter-word;
+}
